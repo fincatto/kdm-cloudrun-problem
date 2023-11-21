@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+  <Version>3</Version>
+  <MasterEncodingThreads>4</MasterEncodingThreads>
+  <ServerEncodingThreads>4</ServerEncodingThreads>
+  <ServerPortBase>6192</ServerPortBase>
+  <UseAnyServers>1</UseAnyServers>
+  <OnlyServersEncode>0</OnlyServersEncode>
+  <TMSProtocol>0</TMSProtocol>
+  <TMSIP></TMSIP>
+  <TMSPath>.</TMSPath>
+  <TMSUser></TMSUser>
+  <TMSPassword></TMSPassword>
+  <CinemaSoundProcessor>dolby_cp750</CinemaSoundProcessor>
+  <DefaultContainer>185</DefaultContainer>
+  <DefaultDCPContentType>FTR</DefaultDCPContentType>
+  <DefaultDCPAudioChannels>6</DefaultDCPAudioChannels>
+  <DCPIssuer></DCPIssuer>
+  <DCPCreator></DCPCreator>
+  <DefaultUploadAfterMakeDCP>0</DefaultUploadAfterMakeDCP>
+  <ISDCFMetadata>
+    <ContentVersion>1</ContentVersion>
+    <AudioLanguage></AudioLanguage>
+    <Territory></Territory>
+    <Rating></Rating>
+    <Studio></Studio>
+    <Facility></Facility>
+    <TempVersion>0</TempVersion>
+    <PreRelease>0</PreRelease>
+    <RedBand>0</RedBand>
+    <Chain></Chain>
+    <TwoDVersionOfThreeD>0</TwoDVersionOfThreeD>
+    <MasteredLuminance></MasteredLuminance>
+  </ISDCFMetadata>
+  <DefaultStillLength>10</DefaultStillLength>
+  <DefaultJ2KBandwidth>150000000</DefaultJ2KBandwidth>
+  <DefaultAudioDelay>0</DefaultAudioDelay>
+  <DefaultInterop>1</DefaultInterop>
+  <MailServer></MailServer>
+  <MailPort>25</MailPort>
+  <MailProtocol>Auto</MailProtocol>
+  <MailUser></MailUser>
+  <MailPassword></MailPassword>
+  <KDMSubject>KDM delivery: $CPL_NAME</KDMSubject>
+  <KDMFrom></KDMFrom>
+  <KDMBCC></KDMBCC>
+  <KDMEmail>Dear Projectionist
+
+Please find attached KDMs for $CPL_NAME.
+
+Cinema: $CINEMA_NAME
+Screen(s): $SCREENS
+
+The KDMs are valid from $START_TIME until $END_TIME.
+
+Best regards,
+DCP-o-matic</KDMEmail>
+  <NotificationSubject>DCP-o-matic notification</NotificationSubject>
+  <NotificationFrom></NotificationFrom>
+  <NotificationTo></NotificationTo>
+  <NotificationBCC></NotificationBCC>
+  <NotificationEmail>$JOB_NAME: $JOB_STATUS</NotificationEmail>
+  <CheckForUpdates>0</CheckForUpdates>
+  <CheckForTestUpdates>0</CheckForTestUpdates>
+  <MaximumJ2KBandwidth>250000000</MaximumJ2KBandwidth>
+  <AllowAnyDCPFrameRate>0</AllowAnyDCPFrameRate>
+  <AllowAnyContainer>0</AllowAnyContainer>
+  <LogTypes>7</LogTypes>
+  <AnalyseEBUR128>1</AnalyseEBUR128>
+  <AutomaticAudioAnalysis>0</AutomaticAudioAnalysis>
+  <Signer>
+    <Certificate>-----BEGIN CERTIFICATE-----
+MIIEZjCCA06gAwIBAgIBBTANBgkqhkiG9w0BAQsFADB9MRYwFAYDVQQKEw1kY3Bv
+bWF0aWMuY29tMRYwFAYDVQQLEw1kY3BvbWF0aWMuY29tMSQwIgYDVQQDExsuZGNw
+b21hdGljLnNtcHRlLTQzMC0yLlJPT1QxJTAjBgNVBC4THGZXcjhJeU03clIxRldn
+RE4vZjNIZmZvcm5mWT0wIBcNMjIwMTE3MTIwNTQ5WhgPMjA2MjAxMDcxMjA1NDla
+MH0xFjAUBgNVBAoTDWRjcG9tYXRpYy5jb20xFjAUBgNVBAsTDWRjcG9tYXRpYy5j
+b20xJDAiBgNVBAMTGy5kY3BvbWF0aWMuc21wdGUtNDMwLTIuUk9PVDElMCMGA1UE
+LhMcZldyOEl5TTdyUjFGV2dETi9mM0hmZm9ybmZZPTCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBALlc2X46Da+0KHGTulOjwAhz5ztQY7rbwSxt122rCZI1
+dparHVqUg75VZ2RentBvzMCds/69NsWMTG9yq73z3GnUA7liSdQjXbywdTmowhuZ
+3A5bvtrRQJptY8YJSmrkZnF7JwbWntNPL/Uvj6JQjpYAb2oHndifOkejwEj7ZN/4
+W8u401HNn/1iszDFXRnr/jtu3Ll8LRfPhnuzgvVankMjUa4L4uGM2wATK+cgmoLg
+0efREltRoY/RpGcDtegxrWaoWy20ZAKjQOmm8cIYwnX7sOeOn1Tz3LiALOKywm3x
+6cy9vq+YAI7o9+Vhf9sgxz8K0335d9i0qz/EBC76BD8CAwEAAaOB7jCB6zASBgNV
+HRMBAf8ECDAGAQH/AgEDMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQUfWr8IyM7rR1F
+WgDN/f3HffornfYwgagGA1UdIwSBoDCBnYAUfWr8IyM7rR1FWgDN/f3Hffornfah
+gYGkfzB9MRYwFAYDVQQKEw1kY3BvbWF0aWMuY29tMRYwFAYDVQQLEw1kY3BvbWF0
+aWMuY29tMSQwIgYDVQQDExsuZGNwb21hdGljLnNtcHRlLTQzMC0yLlJPT1QxJTAj
+BgNVBC4THGZXcjhJeU03clIxRldnRE4vZjNIZmZvcm5mWT2CAQUwDQYJKoZIhvcN
+AQELBQADggEBABb7T42Van/a3MjaMTZRwhmOdqIjym/2Io3noyWH46N7nPFtPxm/
+xq1iiIMJ3fVzsH3nFkiDIuJcYZlZqNWUwA0uvaPdYJNNUNoL9aM05E/die/Dal2f
+t5bTP03nYA0drK+E0SkwsrBVKH5fVcZ8e8+GBcCOuM8TxeuvMl5MYTUlHit2C9Hi
+Y1AtzacfeUfG5E3BcPY4XT9idMnBvEMy3xXXPRNUoyTYgAM9fNEWbSawBZh3qCV8
+s1+icwwioJFpvCyxd7lf35jbRxaxqy9g0/KpehUXSfi2qlM3UkU0+aFriUwi9xp5
+c+yI4JY2DDQ/8gChyHFE21nQPIDBYqLNhHU=
+-----END CERTIFICATE-----
+</Certificate>
+    <Certificate>-----BEGIN CERTIFICATE-----
+MIIEbzCCA1egAwIBAgIBBjANBgkqhkiG9w0BAQsFADB9MRYwFAYDVQQKEw1kY3Bv
+bWF0aWMuY29tMRYwFAYDVQQLEw1kY3BvbWF0aWMuY29tMSQwIgYDVQQDExsuZGNw
+b21hdGljLnNtcHRlLTQzMC0yLlJPT1QxJTAjBgNVBC4THGZXcjhJeU03clIxRldn
+RE4vZjNIZmZvcm5mWT0wIBcNMjIwMTE3MTIwNTQ5WhgPMjA2MjAxMDYxMjA1NDla
+MIGFMRYwFAYDVQQKEw1kY3BvbWF0aWMuY29tMRYwFAYDVQQLEw1kY3BvbWF0aWMu
+Y29tMSwwKgYDVQQDEyMuZGNwb21hdGljLnNtcHRlLTQzMC0yLklOVEVSTUVESUFU
+RTElMCMGA1UELhMcdElsaDY3YTZna0NMOE51NXBjaThCNVhnck5nPTCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMPa/wcFinDEKWmp6Fm4vrtCEJ9VsrhW
+N++NX9igXuvpvVgEG43o6K2P5CPJICqgScdT1x8ZRkYlOD6iAbzNgTVHUYfdL//c
+9iEploJoCnyPOEr584UZRuulUdn52eG6piff540975QqAopNSo2z83TjonwY/d4m
+QjjbhzDZXF4oqJgQbhSDwAo3ZuDlO1r2R9mvZna6F5Z7+3K0MD9Rkp+EVccGF613
+u7n8rxzWOyzZNe/y9LRsZM6GVP2EiYBF3pHiD42vsQrGdcmXYfM4kb9+8+6gJvfw
+QuseQOj5ZFVqZVW59OjCNNxw8C4T8ZiA+l9UM7KOkD6KK6WYlzgmuKkCAwEAAaOB
+7jCB6zASBgNVHRMBAf8ECDAGAQH/AgECMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQU
+tIlh67a6gkCL8Nu5pci8B5XgrNgwgagGA1UdIwSBoDCBnYAUfWr8IyM7rR1FWgDN
+/f3HffornfahgYGkfzB9MRYwFAYDVQQKEw1kY3BvbWF0aWMuY29tMRYwFAYDVQQL
+Ew1kY3BvbWF0aWMuY29tMSQwIgYDVQQDExsuZGNwb21hdGljLnNtcHRlLTQzMC0y
+LlJPT1QxJTAjBgNVBC4THGZXcjhJeU03clIxRldnRE4vZjNIZmZvcm5mWT2CAQUw
+DQYJKoZIhvcNAQELBQADggEBABiIkRPaAJTQkhhLksc0h03LB0fL6Y23OLtvANVk
+pYKd37laM+BEtQIAiHP+2iqyx5x9D8tl9w1axGD0KG9rwPh+Q1eXoxbzQjWrFPYG
+hqbGHh4eLAWUWu75MMpBCcVTdJL4MzSth+pX3TgAskOcMDg5k76DLfUIT/syBP44
+Xn2CBxPFAqHnMn3MQm9XsUyi83XGP6tHsZWNq18cFcAwAU5Jk17eG8AH+bPBAtyv
+J3Qzhc1RxK5CPErM0J+zTpSBJXeYXrGK3XuBSNwqDpBqM2iI7Xx/pBZSpzEcfyhn
+ojnlRqsR8xIsEJ9jZDATD2KqYEsLxU9+nFt3Jc4rfLlFEoM=
+-----END CERTIFICATE-----
+</Certificate>
+    <Certificate>-----BEGIN CERTIFICATE-----
+MIIEazCCA1OgAwIBAgIBBzANBgkqhkiG9w0BAQsFADCBhTEWMBQGA1UEChMNZGNw
+b21hdGljLmNvbTEWMBQGA1UECxMNZGNwb21hdGljLmNvbTEsMCoGA1UEAxMjLmRj
+cG9tYXRpYy5zbXB0ZS00MzAtMi5JTlRFUk1FRElBVEUxJTAjBgNVBC4THHRJbGg2
+N2E2Z2tDTDhOdTVwY2k4QjVYZ3JOZz0wIBcNMjIwMTE3MTIwNTQ5WhgPMjA2MjAx
+MDUxMjA1NDlaMH8xFjAUBgNVBAoTDWRjcG9tYXRpYy5jb20xFjAUBgNVBAsTDWRj
+cG9tYXRpYy5jb20xJjAkBgNVBAMTHUNTLmRjcG9tYXRpYy5zbXB0ZS00MzAtMi5M
+RUFGMSUwIwYDVQQuExx6WnEybmM3MkM0VGUwbUp5VFprT2lZcXlkajA9MIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4RBAo+29BJEbAzFeInkdXH8AJuI6
+Cl7GYFdCfYjq9mhctiUV7jl8KifW2x6TuTXX/nGGQF4QY0eXCF8u99hs5ZtKI0IV
+5t8xzAH2SbDqoMWreFlzXZ1ulpP8rS2dUk6kIuBxl1Fie9lTzb1XvIncHoib0jPf
+lLn6X/hWhz//u/p6fFZv/RPGEUv1mo9NDyDQolZojBPZ8YkuNQDUcEifNallptke
+3ZyThvAQsK5FYBTgDRYZbqb9Q6pyDmrsUZBWl6vOxFYciaPDsN/pyrnHiKSmzdt1
+k/bOw02UMFeuy+5hMX3MGRtIs1ldFWv/moPzGlgDk5xFg0qpT9Cg74yCwwIDAQAB
+o4HoMIHlMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgWgMB0GA1UdDgQWBBTNmrad
+zvYLhN7SYnJNmQ6JirJ2PTCBqAYDVR0jBIGgMIGdgBS0iWHrtrqCQIvw27mlyLwH
+leCs2KGBgaR/MH0xFjAUBgNVBAoTDWRjcG9tYXRpYy5jb20xFjAUBgNVBAsTDWRj
+cG9tYXRpYy5jb20xJDAiBgNVBAMTGy5kY3BvbWF0aWMuc21wdGUtNDMwLTIuUk9P
+VDElMCMGA1UELhMcZldyOEl5TTdyUjFGV2dETi9mM0hmZm9ybmZZPYIBBjANBgkq
+hkiG9w0BAQsFAAOCAQEALeTvXc63QiUFRA8evVhewaUnkyGSuQO2sMCd/7X9YmdT
+Q7C52XqArwSCAFyfNOpDycotnc8/1tzQMpHt0SS6IqydG4Fq0AAbNzbs9L6wPR1j
+HUrWxTeHpxEb+Y+KcvHWyVC+z5rGiGbAaonTqVo92ICq8QwarbVBZGLnFSGiHpuK
+jx9vbjpqf0C1SjrRXbdFPRxKELx+VxqwF6AcAzk5X8P+G4dr7NcnTlJu5xpIkAPf
+64gvV94Bl+rB3QFkIEkD/9gXNs7WceZET+iS7CfNlr3AnyEXmueqKFka3lgGn8CX
+xiqHqLgkR7VGwIRnElOj4ZiO1TEr0S5bM2XBycXs5A==
+-----END CERTIFICATE-----
+</Certificate>
+    <PrivateKey>-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA4RBAo+29BJEbAzFeInkdXH8AJuI6Cl7GYFdCfYjq9mhctiUV
+7jl8KifW2x6TuTXX/nGGQF4QY0eXCF8u99hs5ZtKI0IV5t8xzAH2SbDqoMWreFlz
+XZ1ulpP8rS2dUk6kIuBxl1Fie9lTzb1XvIncHoib0jPflLn6X/hWhz//u/p6fFZv
+/RPGEUv1mo9NDyDQolZojBPZ8YkuNQDUcEifNallptke3ZyThvAQsK5FYBTgDRYZ
+bqb9Q6pyDmrsUZBWl6vOxFYciaPDsN/pyrnHiKSmzdt1k/bOw02UMFeuy+5hMX3M
+GRtIs1ldFWv/moPzGlgDk5xFg0qpT9Cg74yCwwIDAQABAoIBAQCFvUKsJvnLXO7Q
+VuW5Vn88F7vfX09eGjOHzFKWhmYZRqrREfiWN1KxOjtSujjONlDDwnIkjcDvPfth
+3i3q2ZDcYAsOKJcbOkY9FG1mHNtP7iaWvZDwcDzm/cmInzJ9Vn3yu6zEXnhHYD2M
+ZJdeUg2bl1IA9xJFLr65iLjiZgVxjai8GqqdvRuf/uByvFYie/gcJkFY5r7tllVG
+twv/ZcYT/fibW+6FsQb7yKc2ZLZxTxenetc3Jp76q6KPRLPPjKqrSc6gozcqQYby
+ii+c6uFTC0P5CbYyKFtUQUI4FpfFB7JgdyTKX4w7XCyZ6KLegVFYnYzVsDpm2tVi
+MucJLcYBAoGBAP5CVE313NJiRRGZPEcS4SW7m6mf1KdlrU/aMb88PKpX2B0lCXSo
+JUAIShz8YfmV8NHrKo+vkNBQG6aKOoHjEvRSASNcrr4K5SylL9MciP8ZQ6p9EuKc
+HYOVAgl7yDLHXO2oCx8HRYEWpLvln4++bFuI/yTzwCDzk1vyFokSZ1N5AoGBAOKa
+v5356WAI4klHmnw2L+024oTe8P/tiIzBzREPHjikJ3H9kwSmbcbk/M7mEskD851x
+8W/BNFIs6htGFk/LQKE4fXvL4AIPudliqVfX4HCFYhivWj+yBWEUca2q7nW8a6Tq
+kZA9xTk8hNO8mIA4aOUEhdlzEvBzz06l0tqtQh0bAoGBAJhgT/3Y1toOoq4FU6aU
+nfHrGULy0pLv0IoGjcG56/F6a74rsBsFmi1hymjMqDrXrVdgxEUQRo1RNQD93kpx
+N67MZno21VJ3XRkAdkTi2QdosLC//E1qmhV9e5cLY9Nqvzp+dwvFY9YVJ+yjlJik
+2nORCreujPoyf6Ge1/qV2O6hAoGAV0c3KoeJJZ4GWickD1dnmjwbfwXHWSuJ/nze
+mQVzpGlFcBg0ugPIIGUuIhpnfdjxyeCLF3oYxtXZzWtvSIiGehIh8r6RpvmboWjo
+xJa3MV+OauePIR1WCRAwwK0nb12FMF3QdvfzsJnopwzqx+fyLtNRInG6B7bzT916
+mxNEdaUCgYAJauQmsHaBa5/D9o+m4sWtePKsuYxt2hgHMv61UNZvgr7X/rZFUFV7
+3uTOUmJ6M/GdytHoWgKMOuQ2qPn16H5i33Cqw9dzbGnaT5GukWlQazzCycs/MlLq
+r/aj0/Z+/MYGKs++q912VJVcyp8jX8dipA7xnesnhNZU5NmnOx/Aiw==
+-----END RSA PRIVATE KEY-----
+</PrivateKey>
+  </Signer>
+  <Decryption>
+    <Certificate>-----BEGIN CERTIFICATE-----
+MIIEZjCCA06gAwIBAgIBBTANBgkqhkiG9w0BAQsFADB9MRYwFAYDVQQKEw1kY3Bv
+bWF0aWMuY29tMRYwFAYDVQQLEw1kY3BvbWF0aWMuY29tMSQwIgYDVQQDExsuZGNw
+b21hdGljLnNtcHRlLTQzMC0yLlJPT1QxJTAjBgNVBC4THDlPN3VYQ3BtOVNJNmlo
+OWtMSExVeC96RHlBbz0wIBcNMjIwMTE3MTIwNTQ5WhgPMjA2MjAxMDcxMjA1NDla
+MH0xFjAUBgNVBAoTDWRjcG9tYXRpYy5jb20xFjAUBgNVBAsTDWRjcG9tYXRpYy5j
+b20xJDAiBgNVBAMTGy5kY3BvbWF0aWMuc21wdGUtNDMwLTIuUk9PVDElMCMGA1UE
+LhMcOU83dVhDcG05U0k2aWg5a0xITFV4L3pEeUFvPTCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAK299PbW39Cc7JPZ2cn/SUJ3ZIX7pkHmWub3Q9zx9NOA
+++wrlGOtCCeC7U6yPMn8aSx1vCEhfvqgXPG+V7orHmeqdZVqQzcrevU61lM/6Ev0
+SlYsaYbvYe0Lj2k2sVYTKGXx4MR9yduUorw+6+Tfb3TQP3qWlOv6O499WIPuJxOK
+7WynXM0JNxgvpAaV238g51nP9fXY1m+4Ki5/khKNLx6gl0KGtKyhQxPYb/sR1Nu9
+IcXCFGaFT9ElXlKYrtmEyXMymBbwIPRbrimjm2ZC+uj/XGakyMo1vws0wGptnveE
+9ngYCapPaaHDzk2Fzkjrz531LKtLT0V3k4C3pjepx0kCAwEAAaOB7jCB6zASBgNV
+HRMBAf8ECDAGAQH/AgEDMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQU9O7uXCpm9SI6
+ih9kLHLUx/zDyAowgagGA1UdIwSBoDCBnYAU9O7uXCpm9SI6ih9kLHLUx/zDyAqh
+gYGkfzB9MRYwFAYDVQQKEw1kY3BvbWF0aWMuY29tMRYwFAYDVQQLEw1kY3BvbWF0
+aWMuY29tMSQwIgYDVQQDExsuZGNwb21hdGljLnNtcHRlLTQzMC0yLlJPT1QxJTAj
+BgNVBC4THDlPN3VYQ3BtOVNJNmloOWtMSExVeC96RHlBbz2CAQUwDQYJKoZIhvcN
+AQELBQADggEBAKUi6n9VW5HM9aD1ysFyc7l/LSewd1/2l3wQ1pZqMml8NkDrO5ZW
+GRf1MT0leIlWYjp8VDvpeP/pnRZiliY4fBOzG1E+Tew2z2EwZa8R162uxKHFawju
+KLLb2Ev/fazofrMKATfiFvjuDiX6wU3I4tcNzNBV8uq5l7xJVr2+fV1XzTGaxdub
+OZsf+bO4ZvWcve1C7SBngzcPiN08BiZprsdHYzh08+ZW11aYjUd1tpIGSCfiThi1
+G268A2Y5fHfJAumoGmaoXJudC52zSaoUhlQCvgbpsJagPHfdGCD31a2FEiWkkY4o
+wIk6BGYDnKyfZP6Usy/6gRziytlhx3vvb/I=
+-----END CERTIFICATE-----
+</Certificate>
+    <Certificate>-----BEGIN CERTIFICATE-----
+MIIEbzCCA1egAwIBAgIBBjANBgkqhkiG9w0BAQsFADB9MRYwFAYDVQQKEw1kY3Bv
+bWF0aWMuY29tMRYwFAYDVQQLEw1kY3BvbWF0aWMuY29tMSQwIgYDVQQDExsuZGNw
+b21hdGljLnNtcHRlLTQzMC0yLlJPT1QxJTAjBgNVBC4THDlPN3VYQ3BtOVNJNmlo
+OWtMSExVeC96RHlBbz0wIBcNMjIwMTE3MTIwNTQ5WhgPMjA2MjAxMDYxMjA1NDla
+MIGFMRYwFAYDVQQKEw1kY3BvbWF0aWMuY29tMRYwFAYDVQQLEw1kY3BvbWF0aWMu
+Y29tMSwwKgYDVQQDEyMuZGNwb21hdGljLnNtcHRlLTQzMC0yLklOVEVSTUVESUFU
+RTElMCMGA1UELhMcNmNXb203L1lzMmRxekdWV0FGRkk4aXl1anRrPTCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAK/cqvUkuQEceohER6LXUKftqmN5ja4U
+tBU4qZoBf8xohKR3ado4davnW5ncbTzyC77Wh0vYWl8phxzmLo+PoIvmgWcp4cuF
+x7uz4Zl9jbNuo5J/EaidHEGwtOlwAG1WtecQph2ICNru0FVdTaRxg51G6rqH2c2b
+k0IdcaeaC7Mq5NQrTuUdDInEDDD33iASGdUFAQ/RCVBYI0HBDL6+ETc9MPm66SYI
+wSKmQFMevU8paqS7wsBTAKNDuMGbaEWtPARyuT5NHaF9KdRurkl+BQs5SNkAkS6b
+ppBXGGc182Y+7e99jpjP6G0DBme09fJa5oB6XKxAEj9Gxj2IUTrScIkCAwEAAaOB
+7jCB6zASBgNVHRMBAf8ECDAGAQH/AgECMAsGA1UdDwQEAwIBBjAdBgNVHQ4EFgQU
+6cWom7/Ys2dqzGVWAFFI8iyujtkwgagGA1UdIwSBoDCBnYAU9O7uXCpm9SI6ih9k
+LHLUx/zDyAqhgYGkfzB9MRYwFAYDVQQKEw1kY3BvbWF0aWMuY29tMRYwFAYDVQQL
+Ew1kY3BvbWF0aWMuY29tMSQwIgYDVQQDExsuZGNwb21hdGljLnNtcHRlLTQzMC0y
+LlJPT1QxJTAjBgNVBC4THDlPN3VYQ3BtOVNJNmloOWtMSExVeC96RHlBbz2CAQUw
+DQYJKoZIhvcNAQELBQADggEBAKlFy0hx7RxKv0seIYDk4R+DlMnmu7yrmE5lbfnQ
+bckVZAPUZrV6ianU9etO8SsR7LtTCi6EMMkXyGgCevtbKYPIqSdBvTY2JqDoKx86
+1A2wf9Ca8rBZDoGI5MqeSVF8sWFIEUE5dAZ5OlPibipL+blloLXVYEeOAHWwoR5y
+WUfHh2ZNWBw7V1wksA54W2SkCzdaiOJmvGx3lhxgfEjO8aft5Mynm7dniq4sskrJ
+cyDRsc6gpO8w4vVQGeYGFlAvdJpSjExvEdTRUBXvBbaOxnorjJo8l10hDgWvEkis
+MHQQkvUiagU1EuS8W3mnpZAQA+F7NgwIceWUNCNAhibuk0k=
+-----END CERTIFICATE-----
+</Certificate>
+    <Certificate>-----BEGIN CERTIFICATE-----
+MIIEazCCA1OgAwIBAgIBBzANBgkqhkiG9w0BAQsFADCBhTEWMBQGA1UEChMNZGNw
+b21hdGljLmNvbTEWMBQGA1UECxMNZGNwb21hdGljLmNvbTEsMCoGA1UEAxMjLmRj
+cG9tYXRpYy5zbXB0ZS00MzAtMi5JTlRFUk1FRElBVEUxJTAjBgNVBC4THDZjV29t
+Ny9ZczJkcXpHVldBRkZJOGl5dWp0az0wIBcNMjIwMTE3MTIwNTQ5WhgPMjA2MjAx
+MDUxMjA1NDlaMH8xFjAUBgNVBAoTDWRjcG9tYXRpYy5jb20xFjAUBgNVBAsTDWRj
+cG9tYXRpYy5jb20xJjAkBgNVBAMTHUNTLmRjcG9tYXRpYy5zbXB0ZS00MzAtMi5M
+RUFGMSUwIwYDVQQuExxUbXFJSi9pMlRGSEdHNHY3YTZEeWlCNHU1UXc9MIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsLY+LwbRpToCvUZ73MnIHYAC8xps
+WQwBo6RZXUSImh7FryqSU3HeyNWBzo7bhS2Pb8UQRYe3Q16gDdxE4N9Gw6x9usqP
+v+a+xuAl5O1uJM3RPjWjTerbBN1xYJop+Vp23GfPAtJy6m76WshJOHtLqem7E3sn
+g3++kQy2Z4UlPzHA4z5LC/+ASLI60VtT3k41BQf9x6Td3S9ARAg2vgfTNXQboJRT
+xedKwYwoLgw9/pGbdywo9bvecw+Cga8uePVpwD7ATUMBJ54LoaKGdfMqj9qLaIew
+WUXiGHpmvr1Wi1uFFNJQeze2+pU3pyf9cZr72VeXDMChiQ8+sjr1AIfylwIDAQAB
+o4HoMIHlMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgWgMB0GA1UdDgQWBBROaogn
++LZMUcYbi/troPKIHi7lDDCBqAYDVR0jBIGgMIGdgBTpxaibv9izZ2rMZVYAUUjy
+LK6O2aGBgaR/MH0xFjAUBgNVBAoTDWRjcG9tYXRpYy5jb20xFjAUBgNVBAsTDWRj
+cG9tYXRpYy5jb20xJDAiBgNVBAMTGy5kY3BvbWF0aWMuc21wdGUtNDMwLTIuUk9P
+VDElMCMGA1UELhMcOU83dVhDcG05U0k2aWg5a0xITFV4L3pEeUFvPYIBBjANBgkq
+hkiG9w0BAQsFAAOCAQEAXCiiqrDT4kLaUTg7qRixnMWapm9+SzeQcD0dhe94MGyW
+hgj4TriXHhemBNV4NzuWG67bjU8QMq5DmgtU76M4wl+QdJLm+4TVO6Daxk/eifdD
+nzXuigUUeRenfz2SpP6GqF4g0ni0S7MyC+rRJ5/YG0HENdYwQENdCd1hrS+ins6k
+Ty3OeH0hLMM0k0s95qn5QDVUnVlCcjL+im54hAG4LLfg+twHZQApGN9mDap7A5vU
+4REyaAcoNC9FQBF0ndpM+XWkUF+Ycm55a6RIRsA4Z8Dt9xUDXTxkrFaXhb+bDFxs
+xUDebAgxlGOYkzMUhrf1Ek1ZK6jJ74zkkQSd0UhD+g==
+-----END CERTIFICATE-----
+</Certificate>
+    <PrivateKey>-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAsLY+LwbRpToCvUZ73MnIHYAC8xpsWQwBo6RZXUSImh7FryqS
+U3HeyNWBzo7bhS2Pb8UQRYe3Q16gDdxE4N9Gw6x9usqPv+a+xuAl5O1uJM3RPjWj
+TerbBN1xYJop+Vp23GfPAtJy6m76WshJOHtLqem7E3sng3++kQy2Z4UlPzHA4z5L
+C/+ASLI60VtT3k41BQf9x6Td3S9ARAg2vgfTNXQboJRTxedKwYwoLgw9/pGbdywo
+9bvecw+Cga8uePVpwD7ATUMBJ54LoaKGdfMqj9qLaIewWUXiGHpmvr1Wi1uFFNJQ
+eze2+pU3pyf9cZr72VeXDMChiQ8+sjr1AIfylwIDAQABAoIBAH2ic/93N6Hi5oOv
+EuzcQPxIQNCZ3qJImPnBJQ/cY8o/SojJGZNeB+h9c3ZptsSuqaXrUzA71x18rwpr
+qkS+OU9w2UruLNlgsg4u2oIyE/bypWs3M014RhLlZXAq6uCvYoY8/76f5LesAy57
+6yLO9fJtjGXDT0p8jf4OLbjXvq14AXsh55HHLgPBFtvtvpEWgRioCgqKTJUWujt6
+ZHf1p28keiboh4HSsKZQllTI9HzJVsTEpPFBqq7XM5i9+Ypskf75i8OFYEvPniZm
+FkJFJUenHmwE4TCtGGdgDvhzSdhTSrLWprHajNOUfRKPAXb6jWzYsdJS49Wpb6Ub
+4AHjNAECgYEA2yEQ6nr7vtX5omxnQy8SPCj+7gA8yUD19Mjm0sXt5R5cQ/BQYFi+
+BzGL0ycsZUY3x/Wl7U8x8D1/S/HStJ2g1nzVGmZ/DFGoVg4s1qDvYHB3Xloqivez
+d4AozHpCGcmYoAhkE6qrHecb/MvGLpvVfNSOUGqAoc66VlvZ3+0lhwECgYEAznIQ
+LUNBckrkfbsF9njmqsTBY/sd5AW04v1laOxMhkyQWMNnWop6PzHM/Xk/PfhOHWc+
+NGjeJaH0dYxvZvcb2aAdUU5IP5hkOKLgFdNkSxoIpumqfNoz2qR91F9CUKjEYi9x
+lKStFlsOgXELqF0/w2/H7oAHHEMWill1an2uUZcCgYEAsdo8qJP5EAMMAlCJ33Wt
+DzcW8oUu0QnwlyUYc6pCU9w4dsvt8MUWNzB3lIIO/oPnclxmuB23Io5Ha5RyuDXX
+/T6EmFDofU8pme8XZXxpzZR6zhHQxcoV18AlXRE95UBCqGEnGO9Ew5h4ls2tpNbG
+h/LdL1fB35KymrUiOSV5eAECgYBoVHyYY0TP3clbQQjiZncsFgMl4+JXOgsQK770
+J3cE5+yK7zVsLE9bYG+YKY4sYzAW6/Yjxlt96TsBrNcf0gHhGWm3jTg16226sZVN
+cmddDOsSb0QZlKxf8oEksn9xA9k7RX7A//f5NEtAX0Dk9TskKXmArnLpdX4OrOcJ
+yjouQQKBgB2HNESjca7P3xr6337/9j2fEXcgmZ7j4x193GP3fd1qs+zl2SYE85c+
+1XbLJwHatXGnUMINnkPnPRAWcmnWjxaa2jJcwmjkALU1iQ637ZtXYtPiuXdzealn
+qfvs5PSlB3jyLEl+Q59wPb3O7d0keTt0e0G6Dfl2Ru2XIOb1d3Zt
+-----END RSA PRIVATE KEY-----
+</PrivateKey>
+  </Decryption>
+  <History>/home/totens/Área de Trabalho/DCP FLORES RARAS</History>
+  <History>/home/totens/Documentos/DCP depois de tudo</History>
+  <PlayerHistory>/media/totens/ZIP/NADAEPORACASO_FTR_S-239_QBP-XX-CCAP_BR_51-HI-VI-SL_2K_XM_20210805_VSO_IOP_OV</PlayerHistory>
+  <PlayerHistory>/media/totens/ZIP/DUETTO_FTR_S-239_QBP-CCAP_BR_51-HI-VI_2K_NULL_20220428_AFL_IOP_OV</PlayerHistory>
+  <DKDMGroup Name="root"/>
+  <CinemasFile>/home/totens/.config/dcpomatic2/cinemas.xml</CinemasFile>
+  <ShowHintsBeforeMakeDCP>1</ShowHintsBeforeMakeDCP>
+  <ConfirmKDMEmail>1</ConfirmKDMEmail>
+  <KDMFilenameFormat>KDM %f %c %s</KDMFilenameFormat>
+  <KDMContainerNameFormat>KDM %f %c</KDMContainerNameFormat>
+  <DCPMetadataFilenameFormat>%t</DCPMetadataFilenameFormat>
+  <DCPAssetFilenameFormat>%t</DCPAssetFilenameFormat>
+  <JumpToSelected>1</JumpToSelected>
+  <Nagged Id="0">0</Nagged>
+  <Nagged Id="1">0</Nagged>
+  <Nagged Id="2">0</Nagged>
+  <Nagged Id="3">0</Nagged>
+  <Nagged Id="4">1</Nagged>
+  <Nagged Id="5">0</Nagged>
+  <PreviewSound>1</PreviewSound>
+  <CoverSheet>$CPL_NAME
+
+Type: $TYPE
+Format: $CONTAINER
+Audio: $AUDIO
+Audio Language: $AUDIO_LANGUAGE
+Subtitle Language: $SUBTITLE_LANGUAGE
+Length: $LENGTH
+Size: $SIZE
+</CoverSheet>
+  <LastPlayerLoadDirectory>/media/totens/ZIP</LastPlayerLoadDirectory>
+  <LastKDMWriteType>flat</LastKDMWriteType>
+  <LastDKDMWriteType>internal</LastDKDMWriteType>
+  <FramesInMemoryMultiplier>3</FramesInMemoryMultiplier>
+  <DecodeReduction>1</DecodeReduction>
+  <DefaultNotify>0</DefaultNotify>
+  <Notification Id="0">0</Notification>
+  <Notification Id="1">0</Notification>
+  <InterfaceComplexity>full</InterfaceComplexity>
+  <PlayerMode>window</PlayerMode>
+  <ImageDisplay>0</ImageDisplay>
+  <RespectKDMValidityPeriods>1</RespectKDMValidityPeriods>
+</Config>
